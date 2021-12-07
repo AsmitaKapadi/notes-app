@@ -24,7 +24,6 @@ yargs.command({
     },
     handler: function(argv){
         notes.addNotes(argv.title,argv.body)
-        //console.log('Body of note =',argv.body)
     }
 })
 
